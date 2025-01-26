@@ -14,10 +14,18 @@
             height: 100vh;
             color: white;
             text-align: center;
-            background: url('https://mahnoor-joy.netlify.app/background.jpg') no-repeat center center/cover;
-            font-family: 'Arial', sans-serif;
+            position: relative;
+        }
+        .iframe-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
         }
         .poem {
+            position: relative;
             background: rgba(0, 0, 0, 0.5);
             padding: 20px;
             border-radius: 10px;
@@ -35,8 +43,9 @@
     </style>
 </head>
 <body>
+    <iframe class="iframe-background" src="https://jehadjoy55.github.io/flower/" frameborder="0"></iframe>
     <div class="poem">
-        <h1>মাহু</h1>
+        <h1>Poem</h1>
         <p>তোমার উপস্থিতি যেন ঝড়ের গান,</p>
         <p>শব্দহীন ছোঁয়া, তবু হৃদয়ে জাগায় প্রাণ।</p>
         <p>তোমার চোখের গভীরতা ভাসায় স্বপ্নের ভেলায়,</p>
@@ -44,3 +53,4 @@
     </div>
 </body>
 </html>
+
